@@ -1,0 +1,43 @@
+<div class="editor-row">
+
+    <div class="gf-form">
+      <span class="gf-form-label">Row Height</span>
+      <input type="number"
+             ng-model="ctrl.panel.rowHeight"
+             class="gf-form-input max-width-6"
+             on-change="ctrl.onConfigChanged()"
+             ng-blur="ctrl.render()">
+    </div>
+    <div class="gf-form">
+        <span class="gf-form-label">Number of Rows</span>
+        <input type="number"
+               ng-model="ctrl.panel.numRows"
+               class="gf-form-input max-width-6"
+               on-change="ctrl.onConfigChanged()"
+               ng-blur="ctrl.render()">
+    </div>
+    <div class="gf-form">
+      <span class="gf-form-label">Number of Columns</span>
+      <input type="number"
+             ng-model="ctrl.panel.numCols"
+             class="gf-form-input max-width-6"
+             on-change="ctrl.onConfigChanged()"
+             ng-blur="ctrl.render()">
+    </div>
+    <div class="gf-form">
+      <span class="gf-form-label">Refresh interval (ms)</span>
+      <input type="number"
+             ng-model="ctrl.panel.interval_ms"
+             class="gf-form-input max-width-6"
+             on-change="ctrl.onConfigChanged()"
+             ng-blur="ctrl.render()">
+    </div>
+    <div class="gf-form">
+      <span class="gf-form-label">Light padding/border</span>
+      <input type="number"
+             ng-model="ctrl.panel.padding"
+             class="gf-form-input max-width-6"
+             on-change="ctrl.onConfigChanged()"
+             ng-blur="ctrl.render()">
+    </div>
+</div>

@@ -1,0 +1,32 @@
+{
+  "type": "panel",
+  "name": "Blinkenlights",
+  "id": "retzkek-blinkenlights-panel",
+
+  "info": {
+    "description": "Watchen der blinkenlichten!",
+    "author": {
+      "name": "Kevin Retzke"
+    },
+    "keywords": [ "aprilfools" ],
+    "logos": {
+      "small": "img/blinkenlights.png`",
+      "large": "img/blinkenlights.png`"
+    },
+    "links": [
+      {"name": "Project site", "url": "https://github.com/retzkek/grafana-blinkenlights-panel"},
+      {"name": "MIT License",  "url": "https://github.com/retzkek/grafana-blinkenlights-panel/blob/master/LICENSE"}
+    ],
+    "screenshots": [
+      { "name": "Panel",     "path": "img/screenshot-panel.png"  },
+      { "name": "Options",   "path": "img/screenshot-options.png"   }
+    ],
+    "version": "1.4.17",
+    "updated": "2017-04-01"
+  },
+
+  "dependencies": {
+    "grafanaVersion": "3.x.x",
+    "plugins": [ ]
+  }
+}
